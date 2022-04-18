@@ -12,7 +12,7 @@
         "pyrogram"
     ],
     "website": "https://t.me/FA9SH",
-    "repository": "https://github.com/USDDBOOT/Shadow",
+    "repository": "https://github.com/dsyokg/pgdzxc",
     "success_url": "https://t.me/usddshad",
     "env": {
         "API_ID": {
@@ -86,7 +86,7 @@
         "UPSTREAM_REPO": {
             "description": "اتركه كما هوا",
             "required": true,
-            "value": "https://github.com/USDDBOOT/Shadow"
+            "value": "https://github.com/dsyokg/pgdzxc"
         }
     },
     "addons": [],
