@@ -73,7 +73,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "• سيزر•", url="https://t.me/FA9SH/2270",
+                        "• سيزر•", url="https://t.me/RBBOU/2270",
                     )
                 ],
                 [InlineKeyboardButton("", callback_data="cbhowtouse")],
@@ -104,15 +104,15 @@ async def start_(client: Client, message: Message):
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/18b88af791e36bf3c4259.jpg",
-        caption=f"""ᴘʀᴏɢʀᴀᴍᴍᴇʀ [ѕʜᴀᴅᴏᴡ](https://t.me/S_V_I_P) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
+        caption=f"""ᴘʀᴏɢʀᴀᴍᴍᴇʀ [ѕʜᴀᴅᴏᴡ](https://t.me/ttccss) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("𓌹●↯‌𝑫𝑨𝑫 𝑺𝑯𝑨𝑫𝑶𝑾↯●𓌺", url=f"https://t.me/KB_Shadow"),
+                InlineKeyboardButton("𝗔𝗕𝗗𝗢 𝗔𝗦𝗜𝗟 - ســـــــــيزر", url=f"https://t.me/ttccss"),
             ],
             [
                 InlineKeyboardButton(
-                    "𝑬𝑹𝑹𝑶𝑹🖤", url=f"https://t.me/FA9SH"
+                    "⌯ 𝙍𝙀𝘽𝙊𝙍𝙏𝙀𝙍 - ريـبـورتـر ⌯", url=f"https://t.me/RBBOU"
                 ),
             ],
             [
@@ -126,11 +126,11 @@ async def start(client: Client, message: Message):
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{DEV_PHOTO}",
-        caption=f"""◍ الاول: هو مطور السورس \n◍ الثاني: هو مطور البوت\n√""",
+        caption=f"""مرحبا بك عزيزي هذا هو مطور البوت√""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("𓌹●↯‌𝑫𝑨𝑫 𝑺𝑯𝑨𝑫𝑶𝑾↯●𓌺", url=f"https://t.me/S_V_I_P"),
+                InlineKeyboardButton("𝗔𝗕𝗗𝗢 𝗔𝗦𝗜𝗟 - ســـــــــيزر", url=f"https://t.me/ttccss"),
             ],
             [
                 InlineKeyboardButton(
@@ -144,9 +144,9 @@ async def help(client: Client, message: Message):
      )
   )
 
-@Client.on_message(command(["لب التوكن", f"لب_التوكن", "hadow"]) & filters.private & ~filters.edited)
+@Client.on_message(command(["لب التوكن", f"لب_التوكن", "sezr"]) & filters.private & ~filters.edited)
 @sudo_users_only
-async def shadow(c: Client, message: Message):
+async def ssezr(c: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("انتظر من فضلك...")
     BOT_TOKEN = time() - start
